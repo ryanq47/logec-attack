@@ -1,0 +1,16 @@
+Hey there! Welcome to logec attack!
+
+Blah Blah how to use
+
+Shells:
+
+First off, the inital shell offered by a client connecting to the host is (intentionally) very limited, as it is meant to fly under the radar.
+It uses python's subprocess to run system commands, and as such, tools like cat, nano, or anything requiring input does not work. If you want a 
+full interactive shell, click on Target -> Spawn Shell and choose what ever shell you would like - however this will probably set off some alarms
+
+Potential Gotcha's
+
+
+Current Known bugs
+
+Dislaimer: This software is for 'Educational purposes only'... which means as long as you learn ~something~ one way or another, you can use this if you catch my drift. 
