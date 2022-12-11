@@ -21,10 +21,11 @@ Target Info:
 
 ## _Reverse Shells:_
   Currently, there are 3 reverse shells avaible using Python, Perl, and Ruby*. Once connected via the "Main Shell", you can click Target -> Spawn Shell -> Language (Hover over language of choice) -> Linux or Windows**
-  
+ 
+>Selecting a shell:<br>
 ![image](https://user-images.githubusercontent.com/91687869/206891032-7c476ffb-4bea-4438-ae5a-74da547982cf.png)
 
->Shell Popup menu:
+>Shell Popup menu:<br>
 ![image](https://user-images.githubusercontent.com/91687869/206891820-3fbadd92-7b2f-4e80-8d4e-03f9aeb0419d.png)
 
 
