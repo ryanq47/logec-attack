@@ -30,7 +30,7 @@ At the moment, LA cannot catch the shell for you, so you have to start your own 
 * = Note, the ruby shell is not fully interactive at this time (No nano, vi, or any password prompts etc) <br>
 ** Explicit windows shells are coming, for now you can just enter the location of cmd.exe in the 'program' feild as a workaround
 
-##_The Destruction Tab: <br>_##
+## _The Destruction Tab: <br>_
   Forewarning - The name is very fitting to all modules here for a reason, they will break, disable, and/or outright demolish a system - so be very careful. <br>
   >Encryption Sub Menu:<br>
     Options:<br>
