@@ -98,4 +98,12 @@ I used PyQt, which we did not use in class, to develop the GUI<br>
 
 ####  10. All students will use GitHub to share student’s work with the faculty<br>
 
+### Personal take on this project:
+
+I had a ton of fun working on this - and I plan to continue working on it. However, there are some pitfalls/things I would do differently. First one being the lack of 'signals' in PyQt, which prevented me from making proper changes to the GUI accross threads. I lose some onscreen feedback from different modules due to this, and I plan to implement signals in future releases. <br>
+
+The other big pitfall is that this is written in python... and as such, compiling to machine code is very tough. AFAIK, there is no easy way to cross compile python code - so the client has to be compiled (via pyinstaller, or py2exe) on the respective OS that it is targeting. I am going to start learning some C, which will fix this issue, but that is a ways out. <br>
+
+I did learn a lot though, specifically socket programming, which will be a huge advantage in my career. Without this final, I probably would not have pushed myself to learn it, as it takes some time to properly understand. Another upside was working with PyQt, man it was quite a steep learning curve, but was 100% worth it - I used to be scared of GUI apps, but now they are a walk in the park. 
+
 
