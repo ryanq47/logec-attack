@@ -10,7 +10,7 @@ and the client recieves, and runs them. Your job is to get the client onto the t
 ## _Getting Started:_
 run 'pip install -r requirements.txt' to install the needed packages, then 'python3 logec-attack.py'
 
-To run the client, cd into agent/client/ and run 'python3 client.py' - Note: The default IP and Port  it tried to connect to are '127.0.0.1' and '5064'
+To run the client, cd into agent/client/ and run 'python3 client.py' - Note: The default IP and Port  it tries to connect to are '127.0.0.1' and '5064'
 
 ## "The Rest"
 
