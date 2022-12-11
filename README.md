@@ -28,7 +28,14 @@ To listen for a client connection, click Target -> Listen For Connection. In the
 > Upon connection, LA will display 'Connected' with a green background ****
 >![image](https://user-images.githubusercontent.com/91687869/206892202-4a92ab41-e5ed-46db-835a-c5318190fa9a.png)
 
+> Once connected, you can now use the Main Shell! (remeber, use simple commands, nothing interactive)
+![image](https://user-images.githubusercontent.com/91687869/206931214-3fb2aaf5-93a6-429c-8ba4-9e0cd7a75855.png)
+
+
+
 _****: Known bug, 'Connected' may not turn green, but if it says connected, you are connected_ <br>
+
+
 
 ### Now let's get into the fun stuff - but fair warning, these actions are very loud, and could set off a lot of alarms:
 
