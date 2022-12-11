@@ -29,7 +29,7 @@ Target Info:
 ![image](https://user-images.githubusercontent.com/91687869/206891820-3fbadd92-7b2f-4e80-8d4e-03f9aeb0419d.png)
 
 
-At the moment, LA cannot catch the shell for you, so you have to start your own listener using netcat (nc -lvnp PORT). 
+At the moment, LA _cannot_ catch the shell for you, so you have to start your own listener using netcat (nc -lvnp PORT). 
 
 * = Note, the ruby shell is not fully interactive at this time (No nano, vi, or any password prompts etc) <br>
 ** Explicit windows shells are coming, for now you can just enter the location of cmd.exe in the 'program' feild as a workaround
