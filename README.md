@@ -10,6 +10,8 @@ and the client recieves, and runs them. Your job is to get the client onto the t
 ## _Getting Started:_
 run 'pip install -r requirements.txt' to install the needed packages, then 'python3 logec-attack.py'
 
+To run the client, cd into agent/client/ and run 'python3 client.py' - Note: The default IP and port are '127.0.0.1' and '5064'
+
 ## "The Rest"
 
 ### _The Main Shell:_ <br>
@@ -28,7 +30,7 @@ To listen for a client connection, click Target -> Listen For Connection. In the
 
 _****: Known bug, 'Connected' may not turn green, but if it says connected, you are connected_ <br>
 
-### Now let's get into the fun stuff - but fair warning, these actions are very loud, and could set off a lot of alarms
+### Now let's get into the fun stuff - but fair warning, these actions are very loud, and could set off a lot of alarms:
 
 ### _Target Info:_
   The 'Target Info' button gathers some data about your target, such as their IP address, OS version, and Device HostName. This is unlikely to set off any alarms, but still be cautious. Access via 'Target' -> 'Target Info'
