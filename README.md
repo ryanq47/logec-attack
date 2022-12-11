@@ -24,7 +24,7 @@ To listen for a client connection, click Target -> Listen For Connection. In the
 > Upon connection, LA will display 'Connected' with a green background ***
 >![image](https://user-images.githubusercontent.com/91687869/206892202-4a92ab41-e5ed-46db-835a-c5318190fa9a.png)
 
-_***: Known bug, 'Connected' may not turn green, but if it says connected, you are connected_
+_***: Known bug, 'Connected' may not turn green, but if it says connected, you are connected_ <br>
 
 ## Now let's get into the fun stuff - but fair warning, these actions are very loud, and could set off a lot of alarms
 
