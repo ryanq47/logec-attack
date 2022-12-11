@@ -1,8 +1,29 @@
 # logec-attack
-Welcome to Logec-Attack - A (minimal attempt at a) clone of Cobalt Strike, created to learn how offensive tools work. <br>
+Welcome to Logec-Attack (LA) - A (minimal attempt at a) clone of Cobalt Strike, created to learn how offensive tools work. <br>
 
 blah blah talk about agents/client and other features, have a section for shells, and for teh encryption & basic usage
 
+
+How to use?:
+
+LA works off a client server model, similar to how a CS Beacon, or even a Meterpreter instance works. You input commands into the server,
+and the client recieves, and runs them. Your job is to get the client onto the target machine, and let LA take care of the rest. 
+
+Let's talk about what "The Rest" is:
+
+The Main Shell:
+  The "Main Shell" is the first point of contact with the target, it's very simple, on purpose. It uses Python's build in subprocess module to run commands on the target system - and from what I can tell, this is not picked up by Windows Defender at this time, as subprocess is used quite often. Where things may get hairy, is the connection back to the Server. The client tries to connect every 30 seconds (until connected) by default, and a firewall may block that. 
+
+Now let's get into the fun stuff - but fair warning, these actions are very loud, and could set off a lot of alarms
+
+Reverse Shells:
+  Currently, there are 3 reverse shells avaible using Python, Perl, and Ruby*. Once connected via the "Main Shell", you can click Target -> Spawn Shell -> Language -> Linux or Windows**
+  
+![image](https://user-images.githubusercontent.com/91687869/206891032-7c476ffb-4bea-4438-ae5a-74da547982cf.png)
+
+
+* = Note, the ruby shell is not fully interactive at this time (No nano, vi, or any password prompts etc)
+** Explicit windows shells are coming, for now you can just enter the location of cmd.exe in the 'program' feild as a workaround
 
 
 Diagrams: <br>
