@@ -15,7 +15,7 @@ Let's talk about what "The Rest" is:
 The Main Shell:
   The "Main Shell" is the first point of contact with the target, it's very simple, on purpose. It uses Python's build in subprocess module to run commands on the target system - and from what I can tell, this is not picked up by Windows Defender at this time, as subprocess is used quite often. Where things may get hairy, is the connection back to the Server. The client tries to connect every 30 seconds (until connected) by default, and a firewall may block that. 
 
-To Listen for a client connection, click Target -> Listen For Connection. In the popup, enter the listener details. 
+To listen for a client connection, click Target -> Listen For Connection. In the popup, enter the listener details. 
 >![image](https://user-images.githubusercontent.com/91687869/206892006-c2031f89-ba95-447d-a056-fafd5edcd133.png)
 
 >Click Listen, and LA will now be listening: <br>
@@ -26,9 +26,9 @@ To Listen for a client connection, click Target -> Listen For Connection. In the
 
 _***: Known bug, 'Connected' may not turn green, but if it says connected, you are connected_
 
-Now let's get into the fun stuff - but fair warning, these actions are very loud, and could set off a lot of alarms
+# Now let's get into the fun stuff - but fair warning, these actions are very loud, and could set off a lot of alarms
 
-Target Info:
+## _Target Info:_
   The 'Target Info' button gathers some data about your target, such as their IP address, OS version, and Device HostName. This is unlikely to set off any alarms, but still be cautious. 
 
 ## _Reverse Shells:_
