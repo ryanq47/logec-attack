@@ -19,10 +19,12 @@ Now let's get into the fun stuff - but fair warning, these actions are very loud
 Target Info:
   The 'Target Info' button gathers some data about your target, such as their IP address, OS version, and Device HostName. This is unlikely to set off any alarms, but still be cautious. 
 
-Reverse Shells:
+## _Reverse Shells:_
   Currently, there are 3 reverse shells avaible using Python, Perl, and Ruby*. Once connected via the "Main Shell", you can click Target -> Spawn Shell -> Language (Hover over language of choice) -> Linux or Windows**
   
 ![image](https://user-images.githubusercontent.com/91687869/206891032-7c476ffb-4bea-4438-ae5a-74da547982cf.png)
+
+![image](https://user-images.githubusercontent.com/91687869/206891820-3fbadd92-7b2f-4e80-8d4e-03f9aeb0419d.png)
 
 
 At the moment, LA cannot catch the shell for you, so you have to start your own listener using netcat (nc -lvnp PORT). 
