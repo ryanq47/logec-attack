@@ -35,6 +35,8 @@ The Destruction Tab: <br>
   >Encryption Sub Menu:<br>
     Options:<br>
     'Encrypt Files': A module that will encrypt a target directory via AES encrpytion - you can even choose your own password. <br>
+    ![image](https://user-images.githubusercontent.com/91687869/206891627-b1a39a5e-c0ec-4f60-aafb-773afe33e5b4.png)
+
   
 
 
