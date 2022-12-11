@@ -11,7 +11,9 @@ and the client recieves, and runs them. Your job is to get the client onto the t
 Let's talk about what "The Rest" is:
 
 ## _The Main Shell:_ <br>
-  The "Main Shell" is the first point of contact with the target, it's very simple, on purpose. It uses Python's build in subprocess module to run commands on the target system - and from what I can tell, this is not picked up by Windows Defender at this time, as subprocess is used quite often. Where things may get hairy, is the connection back to the Server. The client tries to connect every 30 seconds (until connected) by default, and a firewall may block that. 
+  The "Main Shell" is the first point of contact with the target, it's very simple, on purpose***. It uses Python's build in subprocess module to run commands on the target system - and from what I can tell, this is not picked up by Windows Defender at this time, as subprocess is used quite often. Where things may get hairy, is the connection back to the Server. The client tries to connect every 30 seconds (until connected) by default, and a firewall may block that. 
+
+*** Note, the shell is not fully interactive, so no nano, cd, or any password prompts, etc. Doing so will result in either a program freeze, or an "INVALID COMMAND" error. 
 
 To listen for a client connection, click Target -> Listen For Connection. In the popup, enter the listener details. 
 >![image](https://user-images.githubusercontent.com/91687869/206892006-c2031f89-ba95-447d-a056-fafd5edcd133.png)
@@ -19,10 +21,10 @@ To listen for a client connection, click Target -> Listen For Connection. In the
 >Click Listen, and LA will now be listening: <br>
 >![image](https://user-images.githubusercontent.com/91687869/206892035-3a962ef6-ea08-4c3a-8078-65969c6a9927.png)
 
-> Upon connection, LA will display 'Connected' with a green background ***
+> Upon connection, LA will display 'Connected' with a green background ****
 >![image](https://user-images.githubusercontent.com/91687869/206892202-4a92ab41-e5ed-46db-835a-c5318190fa9a.png)
 
-_***: Known bug, 'Connected' may not turn green, but if it says connected, you are connected_ <br>
+_****: Known bug, 'Connected' may not turn green, but if it says connected, you are connected_ <br>
 
 ## Now let's get into the fun stuff - but fair warning, these actions are very loud, and could set off a lot of alarms
 
