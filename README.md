@@ -96,7 +96,7 @@ not count).<br>
     If/Else/Elif & loops used througout the project<br>
 
 ####  9. Explore and apply one Python concept we did not learn in class. Provide appropriate coding comments to designate this in code file and README documentation.<br>
-    I used PyQt, which we did not use in class, to develop the GUI<br>
+I used PyQt, which we did not use in class, to develop the GUI<br>
 
 ####  10. All students will use GitHub to share student’s work with the faculty<br>
 
