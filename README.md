@@ -1,6 +1,10 @@
 # logec-attack
 Welcome to Logec-Attack - A (minimal attempt at a) clone of Cobalt Strike, created to learn how offensive tools work. <br>
 
+blah blah talk about agents/client and other features, have a section for shells, and for teh encryption & basic usage
+
+
+
 Diagrams: <br>
 
 Network Diagram: <br>
