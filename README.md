@@ -66,3 +66,40 @@ At the moment, LA _cannot_ catch the shell for you, so you have to start your ow
 
 >Program Layout: <br>
 >![image](https://user-images.githubusercontent.com/91687869/206885056-85b932d1-1344-4020-8336-522bf4b36e1b.png)
+
+### _School:_ <br>
+1. Define and write your own custom Python class(es) and/or Python GUI<br>
+environment.
+    PyQt GUI enviornment, multiple custom classes throughout the project.<br>
+
+2. Define and write your own at least three methods or functions (init does
+not count).<br>
+    Multiple throuhgout the project<br>
+
+3. Use at least one list.<br>
+    Lists in the file transfer module, and in logec-attack.py in the data_download_thread method<br>
+
+4. Use of at least one dictionary.<br>
+
+
+5. Use at least three modules we used in class – tkinter, breezypythongui,
+pygame, datetime, random etc.<br>
+    Random is used in the encryption module, DateTime is used in client.py, Threading is used througout the project.<br>
+
+6. Use of read or write to files.<br>
+    The file transfer module reads, and writes files<br>
+
+7. Use of exceptions handling: try, except.<br>
+    try/except used throughout the entire project, mainly for error handling<br>
+
+8. Use of if/else/elif, loops, data entry validation.<br>
+    If/Else/Elif & loops used througout the project<br>
+
+9. Explore and apply one Python concept we did not learn in class. Provide
+appropriate coding comments to designate this in code file and README
+documentation.<br>
+    I used PyQt, which we did not use in class, to develop the GUI<br>
+
+10. All students will use GitHub to share student’s work with the faculty<br>
+
+
