@@ -53,10 +53,10 @@ At the moment, LA _cannot_ catch the shell for you, so you have to start your ow
   
 
 
-## _Diagrams: <br>
+## _Diagrams:_ <br>
 
-Network Diagram: <br>
-![image](https://user-images.githubusercontent.com/91687869/206885050-58326a5f-c243-4931-a7ea-725d1f92bf0f.png) <br>
+>Network Diagram: <br>
+>![image](https://user-images.githubusercontent.com/91687869/206885050-58326a5f-c243-4931-a7ea-725d1f92bf0f.png) <br>
 
-Program Layout: <br>
-![image](https://user-images.githubusercontent.com/91687869/206885056-85b932d1-1344-4020-8336-522bf4b36e1b.png)
+>Program Layout: <br>
+>![image](https://user-images.githubusercontent.com/91687869/206885056-85b932d1-1344-4020-8336-522bf4b36e1b.png)
