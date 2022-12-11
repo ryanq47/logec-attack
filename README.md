@@ -32,9 +32,9 @@ At the moment, LA cannot catch the shell for you, so you have to start your own 
 
 The Destruction Tab: <br>
   Forewarning - The name is very fitting to all modules here for a reason, they will break, disable, and/or outright demolish a system - so be very careful. <br>
-  >>Encryption Sub Menu:<br>
-    Options:<br>
-    'Encrypt Files': A module that will encrypt a target directory via AES encrpytion - you can even choose your own password. <br>
+  >Encryption Sub Menu:<br>
+    >>Options:<br>
+    >>'Encrypt Files': A module that will encrypt a target directory via AES encrpytion - you can even choose your own password. <br>
   
 
 
