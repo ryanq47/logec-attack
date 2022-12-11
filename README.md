@@ -12,7 +12,7 @@ run 'pip install -r requirements.txt' to install the needed packages, then 'pyth
 
 ## Now let's talk about what "The Rest" is:
 
-## _The Main Shell:_ <br>
+### _The Main Shell:_ <br>
   The "Main Shell" is the first point of contact with the target, it's very simple, on purpose***. It uses Python's build in subprocess module to run commands on the target system - and from what I can tell, this is not picked up by Windows Defender at this time, as subprocess is used quite often. Where things may get hairy, is the connection back to the Server. The client tries to connect every 30 seconds (until connected) by default, and a firewall may block that. 
 
 _*** Note, the shell is not fully interactive, so no nano, cd, or any password prompts, etc. Doing so will result in either a program freeze, or an "INVALID COMMAND" error._
