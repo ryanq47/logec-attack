@@ -29,7 +29,7 @@ _***: Known bug, 'Connected' may not turn green, but if it says connected, you a
 ## Now let's get into the fun stuff - but fair warning, these actions are very loud, and could set off a lot of alarms
 
 ## _Target Info:_
-  The 'Target Info' button gathers some data about your target, such as their IP address, OS version, and Device HostName. This is unlikely to set off any alarms, but still be cautious. 
+  The 'Target Info' button gathers some data about your target, such as their IP address, OS version, and Device HostName. This is unlikely to set off any alarms, but still be cautious. Access via 'Target' -> 'Target Info'
 
 ## _Reverse Shells:_
   Currently, there are 3 reverse shells avaible using Python, Perl, and Ruby*. Once connected via the "Main Shell", you can click Target -> Spawn Shell -> Language (Hover over language of choice) -> Linux or Windows**
