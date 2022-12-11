@@ -28,12 +28,12 @@ To listen for a client connection, click Target -> Listen For Connection. In the
 
 _****: Known bug, 'Connected' may not turn green, but if it says connected, you are connected_ <br>
 
-## Now let's get into the fun stuff - but fair warning, these actions are very loud, and could set off a lot of alarms
+### Now let's get into the fun stuff - but fair warning, these actions are very loud, and could set off a lot of alarms
 
-## _Target Info:_
+### _Target Info:_
   The 'Target Info' button gathers some data about your target, such as their IP address, OS version, and Device HostName. This is unlikely to set off any alarms, but still be cautious. Access via 'Target' -> 'Target Info'
 
-## _Reverse Shells:_
+### _Reverse Shells:_
   Currently, there are 3 reverse shells avaible using Python, Perl, and Ruby*. Once connected via the "Main Shell", you can click Target -> Spawn Shell -> Language (Hover over language of choice) -> Linux or Windows**
  
 >Selecting a shell:<br>
@@ -48,7 +48,7 @@ At the moment, LA _cannot_ catch the shell for you, so you have to start your ow
 * = Note, the ruby shell is not fully interactive at this time (No nano, vi, or any password prompts etc) <br>
 ** Explicit windows shells are coming, for now you can just enter the location of cmd.exe in the 'program' feild as a workaround
 
-## _The Destruction Tab: <br>_
+### _The Destruction Tab: <br>_
   Forewarning - The name is very fitting to all modules here for a reason, they will break, disable, and/or outright demolish a system - so be very careful. <br>
   >Encryption Menu:<br>
   'Encrypt Files': A module that will encrypt a target directory via AES encryption - you can even choose your own password. <br>
@@ -57,7 +57,7 @@ At the moment, LA _cannot_ catch the shell for you, so you have to start your ow
   
 
 
-## _Diagrams:_ <br>
+### _Diagrams:_ <br>
 
 >Network Diagram: <br>
 >![image](https://user-images.githubusercontent.com/91687869/206885050-58326a5f-c243-4931-a7ea-725d1f92bf0f.png) <br>
