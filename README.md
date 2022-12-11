@@ -37,7 +37,7 @@ At the moment, LA _cannot_ catch the shell for you, so you have to start your ow
 ## _The Destruction Tab: <br>_
   Forewarning - The name is very fitting to all modules here for a reason, they will break, disable, and/or outright demolish a system - so be very careful. <br>
   >Encryption Menu:<br>
-  'Encrypt Files': A module that will encrypt a target directory via AES encrpytion - you can even choose your own password. <br>
+  'Encrypt Files': A module that will encrypt a target directory via AES encryption - you can even choose your own password. <br>
    ![image](https://user-images.githubusercontent.com/91687869/206891627-b1a39a5e-c0ec-4f60-aafb-773afe33e5b4.png)
 
   
