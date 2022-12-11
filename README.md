@@ -82,8 +82,8 @@ not count).<br>
 ####  4. Use of at least one dictionary.<br>
 
 
-####  5. Use at least three modules we used in class – tkinter, breezypythongui,
-pygame, datetime, random etc.<br>
+####  5. Use at least three modules we used in class – tkinter, breezypythongui, pygame, datetime, random etc.<br>
+
     Random is used in the encryption module, DateTime is used in client.py, Threading is used througout the project.<br>
 
 ####  6. Use of read or write to files.<br>
@@ -95,9 +95,7 @@ pygame, datetime, random etc.<br>
 ####  8. Use of if/else/elif, loops, data entry validation.<br>
     If/Else/Elif & loops used througout the project<br>
 
-####  9. Explore and apply one Python concept we did not learn in class. Provide
-appropriate coding comments to designate this in code file and README
-documentation.<br>
+####  9. Explore and apply one Python concept we did not learn in class. Provide appropriate coding comments to designate this in code file and README documentation.<br>
     I used PyQt, which we did not use in class, to develop the GUI<br>
 
 ####  10. All students will use GitHub to share student’s work with the faculty<br>
