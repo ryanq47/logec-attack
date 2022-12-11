@@ -17,7 +17,7 @@ The Main Shell:
 Now let's get into the fun stuff - but fair warning, these actions are very loud, and could set off a lot of alarms
 
 Reverse Shells:
-  Currently, there are 3 reverse shells avaible using Python, Perl, and Ruby*. Once connected via the "Main Shell", you can click Target -> Spawn Shell -> Language -> Linux or Windows**
+  Currently, there are 3 reverse shells avaible using Python, Perl, and Ruby*. Once connected via the "Main Shell", you can click Target -> Spawn Shell -> Language (Hover over language of choice) -> Linux or Windows**
   
 ![image](https://user-images.githubusercontent.com/91687869/206891032-7c476ffb-4bea-4438-ae5a-74da547982cf.png)
 
