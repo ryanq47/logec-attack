@@ -108,7 +108,7 @@ class c_sock:
 if __name__ == "__main__":
     ## connect to server
     while True:
-        if c_sock.connect(c_sock, '127.0.0.1', 5065):
+        if c_sock.connect(c_sock, '127.0.0.1', 5064):
             break
         else:
             print("trying to connect")

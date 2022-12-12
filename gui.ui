@@ -255,7 +255,7 @@
    </widget>
    <widget class="QMenu" name="menuTarget">
     <property name="title">
-     <string>Target</string>
+     <string>Client</string>
     </property>
     <widget class="QMenu" name="menu_Target_SpawnShell">
      <property name="title">
@@ -309,9 +309,36 @@
     </property>
     <addaction name="GettingStarted_Readme"/>
    </widget>
+   <widget class="QMenu" name="menuExternal_Target">
+    <property name="title">
+     <string>External Target</string>
+    </property>
+    <widget class="QMenu" name="menuExploits">
+     <property name="title">
+      <string>Exploits</string>
+     </property>
+     <widget class="QMenu" name="menuWindows">
+      <property name="title">
+       <string>Windows</string>
+      </property>
+      <widget class="QMenu" name="menuSMB">
+       <property name="title">
+        <string>SMB</string>
+       </property>
+       <addaction name="actionCVE_2017_0144_Eternal_Blue"/>
+      </widget>
+      <addaction name="menuSMB"/>
+     </widget>
+     <addaction name="menuWindows"/>
+     <addaction name="actionLinux"/>
+     <addaction name="actionOther"/>
+    </widget>
+    <addaction name="menuExploits"/>
+   </widget>
    <addaction name="menuFile"/>
    <addaction name="menuTarget"/>
    <addaction name="menu_GettingStarted"/>
+   <addaction name="menuExternal_Target"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="action_Target_Listen">
@@ -336,7 +363,7 @@
   </action>
   <action name="action_Target_Python_binbash">
    <property name="text">
-    <string>Linux Shell</string>
+    <string>Python Linux Shell</string>
    </property>
   </action>
   <action name="action_Target_Python_binsh">
@@ -387,6 +414,21 @@
   <action name="actionEncrypt_Files">
    <property name="text">
     <string>Encrypt Files</string>
+   </property>
+  </action>
+  <action name="actionLinux">
+   <property name="text">
+    <string>Linux</string>
+   </property>
+  </action>
+  <action name="actionOther">
+   <property name="text">
+    <string>Other</string>
+   </property>
+  </action>
+  <action name="actionCVE_2017_0144_Eternal_Blue">
+   <property name="text">
+    <string>CVE-2017-0144: Eternal Blue</string>
    </property>
   </action>
  </widget>
